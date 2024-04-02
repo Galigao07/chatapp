@@ -1,0 +1,107 @@
+/* .Main-container {
+    display: flex;
+    flex-direction: row;
+} */
+
+.sidebar-container{
+    border-right: 1px solid;
+    width: 13%;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+
+}
+.Search {
+    border-radius: 10px;
+    border: solid 1px rgb(19, 49, 240);
+    height: 20px;
+    padding: 2px;
+}
+
+.sub-container{
+
+    width: 85%;
+
+    border-radius: 10px;
+    margin-left: 15%;
+    /* padding: 1px 16px; */
+    height: 100%;
+    position: fixed;
+}
+
+.sidebar-container input ,.sub-container input{
+    /* font-size: 1vw; */
+    margin-bottom: 0;
+    align-content: center;
+    
+}
+
+.sidebar-container  a {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.sidebar-container  a label{
+position: relative;
+bottom: 5px;
+}
+
+
+.sidebar-container .Profile a{
+    /* font-size: 1vw; */
+    text-decoration: none;
+    padding: 10px;
+}
+
+.sidebar-container .Profile a:hover{
+
+color: blue;
+}
+.Profile label {
+    margin: 5px;
+}
+.sidebar-container input {
+    margin: 5px;
+    width: 90%;
+}
+
+
+.sub-container  .sender{
+    position: absolute;
+    bottom: 10px; /* Position the input at the bottom of its container */
+    padding: 5px;
+    margin: 20px;
+    width: 100%;
+  }
+
+  .sub-container  .sender input{
+    width: 70%;
+    padding: 10px;
+    border-radius: 30px;
+    border: solid 1px rgb(65, 116, 141);
+  }
+
+  .sub-container  .sender .icon{
+   margin-left: 10px;
+   cursor: pointer;
+   font-size: 30px;
+   color: rgb(157, 157, 219);
+   transform: rotate(40deg); /* Rotate the icon by 20 degrees */
+  }
+
+  .sub-container  .sender .icon:hover{
+    color: blue;
+  }
+
+ .friends-container label:hover{
+background: rgb(53, 27, 168);
+  }
+
+.friends-container{
+    margin: 5px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(42, 149, 231);
+    padding: 3px;
+    color: white;
+}
